@@ -1,0 +1,4 @@
+/* This file will be used if you decide to add TailwindCSS later */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

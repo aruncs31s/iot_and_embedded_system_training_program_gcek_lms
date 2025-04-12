@@ -1,0 +1,126 @@
+.course-detail-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: var(--card-shadow);
+}
+
+.course-detail-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.course-detail-header h1 {
+  font-weight: 700;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+
+.course-detail-section {
+  margin-bottom: 2.5rem;
+  background-color: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: var(--card-shadow);
+}
+
+.course-detail-section h3 {
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: var(--text-color);
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.course-detail-sidebar {
+  position: sticky;
+  top: 20px;
+}
+
+.course-detail-sidebar .card {
+  box-shadow: var(--card-shadow);
+  border-radius: 1rem;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+  background-color: var(--card-bg);
+}
+
+.course-detail-sidebar .card-img-top {
+  height: 180px;
+  object-fit: cover;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.course-detail-sidebar .card-body {
+  padding: 1.5rem;
+}
+
+.course-detail-sidebar .btn {
+  margin-bottom: 0.75rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+  transition: all 0.2s ease;
+}
+
+.course-detail-sidebar .btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.course-detail-sidebar .btn-primary:hover {
+  background-color: var(--primary-hover);
+  border-color: var(--primary-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.syllabus-item {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border-color);
+  transition: all 0.2s ease;
+}
+
+.syllabus-item:hover {
+  background-color: rgba(59, 130, 246, 0.05);
+  padding-left: 0.5rem;
+}
+
+.dark-theme .syllabus-item:hover {
+  background-color: rgba(59, 130, 246, 0.1);
+}
+
+.syllabus-item:last-child {
+  border-bottom: none;
+}
+
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  color: var(--primary-color);
+  font-weight: 600;
+  transition: all 0.2s ease;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: rgba(59, 130, 246, 0.1);
+}
+
+.back-button:hover {
+  background-color: rgba(59, 130, 246, 0.2);
+  transform: translateX(-5px);
+  color: var(--primary-hover);
+}
+
+.back-button svg {
+  margin-right: 0.5rem;
+  transition: transform 0.2s ease;
+}
+
+.back-button:hover svg {
+  transform: translateX(-3px);
+}
